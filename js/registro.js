@@ -2,6 +2,7 @@ const createBtn = document.getElementById("create-account-btn");
 
 createBtn.addEventListener("click", () => {
     const username = document.getElementById("new-username").value.trim();
+    const email = document.getElementById("email").value.trim();
     const password = document.getElementById("new-password").value;
     const confirm = document.getElementById("confirm-password").value;
 
